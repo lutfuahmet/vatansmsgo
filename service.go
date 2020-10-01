@@ -4,12 +4,12 @@ import (
 	"encoding/xml"
 	"errors"
 	"fmt"
+	"github.com/lutfuahmet/vatansmsgo/gosoap"
 	"io/ioutil"
 	"net/http"
 	"strconv"
 	"strings"
 	"time"
-	"vatansmsgo/gosoap"
 )
 
 func (data OneToN) Send1N() (SendResult, error) {
